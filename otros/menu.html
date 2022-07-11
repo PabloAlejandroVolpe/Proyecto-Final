@@ -8,152 +8,93 @@
     <link rel="icon" type="imagen/jpg" href="../imagenes-carousel/logotodosushi.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <script src="https://kit.fontawesome.com/59276a04be.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../styles/styles.css">
   </head>
   <body>
-      <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">Inicio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="./variedades.html">Variedades</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./menu.html">Menú</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="./contactanos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Contactanos
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="./formulario.html">Formulario</a></li>
-                    <li><a class="dropdown-item" href="./sobrenosotros.html">Sobre Nosotros</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
+    <header>
+      <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand mt-2" href="../index.html">
+            <img src="../imagenes-carousel/logotodosushi.png" alt="" width="50" height="50" class="d-inline-block align-text-center">
+            TodoSushi
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="contenedordeitems navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./variedades.html">Variedades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./envios.html">Envios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./formulario.html">Contactanos</a>
+              </li>
+            </ul>
           </div>
-        </nav>
+        </div>
+      </nav>
       </header>
-      <section class="cartasdelmenu">
-        <div class="card" style="width: 18rem;">
-          <img src="../imagenescarta/imagen1.jpeg" class="card-img-top" alt="...">
-          <div class="card-body text-center">
-            <h5 class="card-title"><b>Tunaroll</b></h5>
-            <p class="card-text">Roll de atun, palta y philadelphia.</p>
-            <p class="card-text">12u x $1210</p>
-            <a href="#" class="btn btn-primary">Encargar</a>
-          </div>
+      <main class="maindelmenu">
+        <div class="indexcont">
+          <h2 class="sub-in text-dark text-center">Menù</h2>
+          <p class="sub-in2 text-dark text-center">Conoce nuestras variedades</p>
         </div>
-        <div class="card" style="width: 18rem;">
-          <img src="../imagenescarta/imagen2.jpeg" class="card-img-top" alt="...">
-          <div class="card-body text-center">
-            <h5 class="card-title"><b>Chiken Roll</b></h5>
-            <p class="card-text">Roll de pollo robazo con panko y cheddar.</p>
-            <p class="card-text"> 12u x $1210</p>
-            <a href="#" class="btn btn-primary">Encargar</a>
-          </div>
+      </main>
+      <section class="galeria-menu">
+        <div>
+          <h2 class="text-center bg-dark text-white">Conoce nuestro menù</h2>
+          <h4 class="text-center bg-dark text-white">Rolls comunes</h4>
         </div>
-        <div class="card" style="width: 18rem;">
-          <img src="../imagenescarta/imagen3.jpeg" class="card-img-top" alt="...">
-          <div class="card-body text-center">
-            <h5 class="card-title"><b>Salmegg</b></h5>
-            <p class="card-text">Roll de tamago con ph envuelto con feta de lomo de salmon</p>
-            <p class="card-text">12u x $1200</p>
-            <a href="#" class="btn btn-primary">Encargar</a>
-          </div>
+        <div class="container">
+          <img src="../piezas/rollcomun1.png" alt="">
+          <img src="../piezas/rollcomun2.jpg" alt="">
+          <img src="../piezas/rollcomun3.png" alt="">
+          <img src="../piezas/rollcomun4.png" alt="">
+          <img src="../piezas/rollcomun5.png" alt="">
+          <img src="../piezas/rollcomun6.png" alt="">
         </div>
-        <div class="card" style="width: 18rem;">
-          <img src="../imagenescarta/imagen4.jpeg" class="card-img-top" alt="...">
-          <div class="card-body text-center">
-            <h5 class="card-title"><b>Ichiban roll</b></h5>
-            <p class="card-text">Roll de salmon, atun rojo y ph, envuelto en palta y coronado con caviar rojo y Negro.</p>
-            <p class="card-text"> 12u x $1500</p>
-            <a href="#" class="btn btn-primary">Encargar</a>
-          </div>
+        <div>
+          <h2 class="text-center bg-dark text-white">Rolls calientes</h2>
         </div>
-        <div class="card" style="width: 18rem;">
-          <img src="../imagenescarta/imagen5.jpeg" class="card-img-top" alt="...">
-          <div class="card-body text-center">
-            <h5 class="card-title"><b>Beetroot</b></h5>
-            <p class="card-text">Roll de remolacha con arroz teñido en la misma.</p>
-            <p class="card-text"> 12u x $1100</p>
-            <a href="#" class="btn btn-primary">Encargar</a>
-          </div>
+        <div class="container">
+          <img src="../piezas/rollcaliente1.jpg" alt="">
+          <img src="../piezas/rollcaliente2.jpg" alt="">
+          <img src="../piezas/rollcaliente3.png" alt="">
+          <img src="../piezas/rollcaliente4.jpeg" alt="">
+          <img src="../piezas/rollcaliente5.png" alt="">
+          <img src="../piezas/rollcaliente6.png" alt="">
         </div>
-        <div class="card" style="width: 18rem;">
-          <img src="../imagenescarta/imagen6.jpeg" class="card-img-top" alt="...">
-          <div class="card-body text-center">
-            <h5 class="card-title"><b>Salmon roll</b></h5>
-            <p class="card-text">Roll de salmon y philadelphia.</p>
-            <p class="card-text">12u x $1280</p>
-            <a href="#" class="btn btn-primary">Encargar</a>
-          </div>
+        <div>
+          <h2 class="text-center bg-dark text-white">Nigiris</h2>
         </div>
-        <div class="card" style="width: 18rem;">
-          <img src="../imagenescarta/imagen7.jpeg" class="card-img-top" alt="...">
-          <div class="card-body text-center">
-            <h5 class="card-title"><b>Hosomaki Roll</b></h5>
-            <p class="card-text">Roll de lomo de atun rojo.</p>
-            <p class="card-text">12u x $1140</p>
-            <a href="#" class="btn btn-primary">Encargar</a>
-          </div>
+        <div class="container">
+          <img src="../piezas/nigiri1.jpg" alt="">
+          <img src="../piezas/nigiri2.png" alt="">
+          <img src="../piezas/nigiri3.jpg" alt="">
         </div>
-        <div class="card" style="width: 18rem;">
-          <img src="../imagenescarta/imagen8.jpeg" class="card-img-top" alt="...">
-          <div class="card-body text-center">
-            <h5 class="card-title"><b>Hot roll kanikama</b></h5>
-            <p class="card-text">Roll de kanikama, palta y ph, rebozado con panko.</p>
-            <p class="card-text">12u x $1200</p>
-            <a href="#" class="btn btn-primary">Encargar</a>
-          </div>
+        <div>
+          <h2 class="text-center bg-dark text-white">Opciones vegetarianas</h2>
         </div>
-        <div class="card" style="width: 18rem;">
-          <img src="../imagenescarta/imagen9.jpeg" class="card-img-top" alt="...">
-          <div class="card-body text-center">
-            <h5 class="card-title"><b>Nigiri de palta</b></h5>
-            <p class="card-text">Bola de arroz con feta de palta.</p>
-            <p class="card-text">12u x $1080</p>
-            <a href="#" class="btn btn-primary">Encargar</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="../imagenescarta/imagen10.jpeg" class="card-img-top" alt="...">
-          <div class="card-body text-center">
-            <h5 class="card-title"><b>Nigiri de berengena</b></h5>
-            <p class="card-text">Bola de arroz con berenjena al escabeche.</p>
-            <p class="card-text">12u x $1080</p>
-            <a href="#" class="btn btn-primary">Encargar</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="../imagenescarta/imagen11.jpeg" class="card-img-top" alt="...">
-          <div class="card-body text-center">
-            <h5 class="card-title"><b>Geishas</b></h5>
-            <p class="card-text">Feta de lomo de atun con philadelphia y palta.</p>
-            <p class="card-text">12u x $1360</p>
-            <a href="#" class="btn btn-primary">Encargar</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="../imagenescarta/imagen12.jpeg" class="card-img-top" alt="...">
-          <div class="card-body text-center">
-            <h5 class="card-title"><b>Nigiri de tamago</b></h5>
-            <p class="card-text">Bola de arroz con tortilla japonesa.</p>
-            <p class="card-text">12u x $1080</p>
-            <a href="#" class="btn btn-primary">Encargar</a>
-          </div>
+        <div class="container">
+          <img src="../piezas/sushivegano1.jpg" alt="">
+          <img src="../piezas/sushivegano2.jpg" alt="">
+          <img src="../piezas/sushivegano3.jpg" alt="">
+          <img src="../piezas/sushivegano4.jpg" alt="">
+          <img src="../piezas/sushivegano5.jpg" alt="">
+          <img src="../piezas/sushivegano6.png" alt="">
         </div>
       </section>
       <footer class="footer-distributed bg-dark">
-        <div class="footer-left">
-					<img src="../imagenes-carousel/logotodosushi.png" alt="Logo de la empresa" class="footer-logo-company">
+        <div class="footer-left text-white">
+				  <p>Derechos de autor protegidos.</p>
 				</div>
         <div class="footer-center">
           <div>
@@ -174,9 +115,9 @@
             <span class="footer-seguinos">Seguinos en nuestras redes</span>
           </p>
           <div class="footer-icons">
-            <box-icon name='facebook' type='logo' class="icono-fb bg-primary"></box-icon>
-            <box-icon name='whatsapp' type='logo' class="icono-wp bg-success"></box-icon>
-            <box-icon type='logo' name='instagram' class="icono-ig bg-danger"></box-icon>
+            <a href="https://www.instagram.com/"><i class="icono-ig fa-brands fa-instagram"></i></a>
+            <a href="https://web.whatsapp.com/"><i class="icono-wp fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/"><i class="icono-fb fa-brands fa-facebook-f"></i></a>
           </div>
         </div>
       </footer>
